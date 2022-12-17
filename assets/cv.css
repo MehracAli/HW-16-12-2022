@@ -1,12 +1,14 @@
 .page{
     width: 700px;
-    border: solid rgb(255, 153, 0);
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg);
+    background-size: cover;
+    border: solid rgb(100, 100, 100);
     border-width: 20px;
     margin: 0px auto;
     padding: 50px 150px;
 }
 h2{
-    border-bottom: solid 5px black;
+    border-bottom: solid 5px rgb(100, 100, 100);
     font-weight: bolder;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -31,7 +33,7 @@ table{
     width: 100px;
     float: right;
     text-align: center;
-    background-color: black;
+    background-color: rgb(100, 100, 100);
     color: white;
 }
 img{
@@ -49,6 +51,6 @@ img{
     font-size: 30px;
     font-style: italic;
 }
-.softwares:first-letter{
+.softwares::first-letter{
     font-size: 25px;
 }
