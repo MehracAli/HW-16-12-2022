@@ -10,8 +10,9 @@ h2{
     font-weight: bolder;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-table.details-table{
+table{
     width: 50%;
+    margin-left: 5%;
 }
 .details-table td{
     font-weight: bold;
@@ -27,14 +28,16 @@ table.details-table{
     font-size: larger;
 }
 .date{
+    width: 100px;
     float: right;
+    text-align: center;
     background-color: black;
     color: white;
 }
 img{
     width: 150px;
 }
-.photo .body .CVname{
+.CVname{
     float: right;
     font-weight: bolder;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
