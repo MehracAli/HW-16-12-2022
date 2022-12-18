@@ -46,7 +46,7 @@ img{
 .CVname span{
     float: right;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 30px!important;
     font-style: italic;
 }
 .softwares::first-letter{
@@ -65,4 +65,8 @@ h2 i{
     text-align: center;
     font-size: 20px;
     vertical-align: top;
+}
+.photo-name span:hover{
+    font-size: 60px;
+    float: right;
 }
