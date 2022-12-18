@@ -54,3 +54,6 @@ img{
 .softwares::first-letter{
     font-size: 25px;
 }
+blockquote{
+    text-indent: 20px;
+}
