@@ -19,11 +19,8 @@ table{
 .details-table td{
     font-weight: bold;
 }
-.details-table tr :nth-of-type(1){
-    text-align: left;
-}
-.details-table tr :nth-of-type(2){
-    text-align: right;
+.details-table td:nth-of-type(1){
+    width: 150px;
 }
 .endistury-name{
     font-weight: bolder;
@@ -59,4 +56,7 @@ blockquote{
 }
 h2 i{
     color: rgb(100, 100, 100);
+}
+.skills-table td{
+    vertical-align: top;
 }
